@@ -1,0 +1,6 @@
+ShCti		版本:Version 5.0.3.0	要求路径:C:\ShCti\api\Vc6.0
+DJDBDK		版本:DJDBDK V3.4.0      要求路径:C:\DJDBDK
+Wtl		版本:8.0(build 7161)
+
+
+

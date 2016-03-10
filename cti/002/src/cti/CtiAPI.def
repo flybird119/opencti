@@ -1,0 +1,103 @@
+
+EXPORTS
+
+CTI_Init				@1
+CTI_Term				@2
+
+CTI_GetChType			@10
+CTI_SetChOwnerData		@11
+CTI_GetChOwnerData		@12
+CTI_GetChState			@13
+
+CTI_GetChTotal			@20
+CTI_SearchIdleCh		@21
+CTI_LoadPlayIndex	    @22
+CTI_Features			@23
+CTI_GetNativeAPI		@24
+CTI_GetLastErrorCode	@25
+CTI_FormatErrorCode		@26
+
+
+
+
+
+CTI_Ringback			@40
+CTI_Pickup				@41
+CTI_Dialup				@42
+CTI_Hangup				@43
+
+
+
+
+CTI_SendDtmf			@50
+CTI_StopSendDtmf		@51
+CTI_IsSendDtmf			@52
+
+CTI_RecvDtmf			@60
+CTI_StopRecvDtmf		@61
+CTI_IsRecvDtmf			@62
+
+
+
+CTI_SendFsk				@70
+CTI_SendFskFull			@71
+CTI_StopSendFsk			@72
+CTI_IsSendFsk			@73
+
+CTI_RecvFsk				@80
+CTI_StopRecvFsk			@81
+CTI_IsRecvFsk			@82
+
+
+CTI_SendTone			@90
+CTI_SendToneEx			@91
+CTI_StopSendTone		@92
+CTI_IsSendTone			@93
+
+CTI_RecvTone			@100
+CTI_StopRecvTone		@101
+CTI_IsRecvTone			@102
+
+
+
+
+CTI_PlayFile			@110
+CTI_PlayMemory			@111
+CTI_PlayQueue			@112
+CTI_PlayIndex			@114
+CTI_StopPlay			@115
+CTI_IsPlay			    @116
+CTI_UpDatePlayMemory    @117
+
+
+    
+    
+
+CTI_RecordFile			@130
+CTI_RecordMemory		@131
+CTI_StopRecord			@132
+CTI_IsRecord		    @133
+CTI_UpDateRecordMemory  @134
+
+CTI_SendFlash           @140
+CTI_RecvFlash           @141
+CTI_StopRecvFlash       @142
+CTI_IsRecvFlash         @143
+
+
+
+CTI_Listen				@160
+CTI_UnListen			@161
+
+
+CTI_DelayChEvent       @170
+CTI_DelaySysEvent      @171
+CTI_CancelDelay        @172
+
+CTI_BindExclusiveThread @173
+CTI_UnBindExclusiveThread @174
+CTI_GetSelectCh			@175
+
+CTI_InsertChEvent       @176
+CTI_PauseCh		        @177
+CTI_ResumeCh            @178
